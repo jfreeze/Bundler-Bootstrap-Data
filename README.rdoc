@@ -1,13 +1,17 @@
-This bootstraps a new project.
+Bootstrap a new project with Gemfile and .bundler/config.
 
 
-= With Curl
+= With curl
+
+Copy and paste the following from inside a new project directory
 
    curl -O https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
    mkdir .bundle; (cd .bundle; curl -O https://github.com/jfreeze/Bundler-Bootstrap/blob/master/Gemfile)
 
 
 = With wget
+
+Copy and paste the following from inside a new project directory
 
    wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
    mkdir .bundle; (cd .bundle; wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/.bundle/config)
