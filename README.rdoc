@@ -1,4 +1,5 @@
 Bootstrap a new project with Gemfile and .bundler/config.
+You can use either the Curl or Wget option of pulling the template files down to your system.
 
 
 = With curl
