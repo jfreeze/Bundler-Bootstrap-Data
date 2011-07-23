@@ -1,0 +1,14 @@
+This bootstraps a new project.
+
+
+= With Curl
+
+curl -O https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
+mkdir .bundle; (cd .bundle; curl -O https://github.com/jfreeze/Bundler-Bootstrap/blob/master/Gemfile)
+
+
+= With wget
+
+wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
+mkdir .bundle; (cd .bundle; wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/.bundle/config)
+
