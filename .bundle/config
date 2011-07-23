@@ -1,0 +1,5 @@
+--- 
+BUNDLE_DISABLE_SHARED_GEMS: "1"
+BUNDLE_WITHOUT: ""
+BUNDLE_PATH: project_gems/
+BUNDLE_BIN: bin
