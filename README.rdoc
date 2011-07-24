@@ -7,7 +7,7 @@ You can use either the Curl or Wget option of pulling the template files down to
 Copy and paste the following from inside a new project directory
 
    curl -O https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
-   mkdir .bundle; (cd .bundle; curl -O https://github.com/jfreeze/Bundler-Bootstrap/blob/master/Gemfile)
+   mkdir .bundle; (cd .bundle; curl -O https://raw.github.com/jfreeze/Bundler-Bootstrap/master/.bundle/config)
 
 
 = With wget
