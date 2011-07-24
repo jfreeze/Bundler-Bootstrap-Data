@@ -17,3 +17,7 @@ Copy and paste the following from inside a new project directory
    wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/Gemfile
    mkdir .bundle; (cd .bundle; wget --no-check-certificate https://raw.github.com/jfreeze/Bundler-Bootstrap/master/.bundle/config)
 
+= With Rubygems
+
+   gem install bundler-bootstrap
+   bundler-bootstrap
